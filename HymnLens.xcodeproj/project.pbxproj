@@ -15,10 +15,10 @@
 		10DE32E91C59C390007AC1D0 /* HymnLensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE32E81C59C390007AC1D0 /* HymnLensTests.m */; };
 		10DE32F41C59C390007AC1D0 /* HymnLensUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE32F31C59C390007AC1D0 /* HymnLensUITests.m */; };
 		10DE33031C59C561007AC1D0 /* HLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE33021C59C561007AC1D0 /* HLTabBarController.m */; };
-		10DE33051C59CAC1007AC1D0 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DE33041C59CAC1007AC1D0 /* opencv2.framework */; };
 		10DE33081C59CD8F007AC1D0 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE33071C59CD8F007AC1D0 /* LinkViewController.m */; };
 		10DE330B1C59CE4E007AC1D0 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE330A1C59CE4E007AC1D0 /* VideoViewController.m */; };
 		10DE330E1C59CE7A007AC1D0 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE330D1C59CE7A007AC1D0 /* CommunityViewController.m */; };
+		3B1A1BC21C59E36D008E13AB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A1BC11C59E36D008E13AB /* opencv2.framework */; };
 		E838F6F60AE48D2CB78975F8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04AC12B1D0B8F277EDEBB28 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,13 +57,13 @@
 		10DE32F51C59C390007AC1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10DE33011C59C561007AC1D0 /* HLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLTabBarController.h; path = HymnLens/HLTabBarController.h; sourceTree = "<group>"; };
 		10DE33021C59C561007AC1D0 /* HLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLTabBarController.m; path = HymnLens/HLTabBarController.m; sourceTree = "<group>"; };
-		10DE33041C59CAC1007AC1D0 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		10DE33061C59CD8F007AC1D0 /* LinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkViewController.h; path = HymnLens/LinkViewController.h; sourceTree = "<group>"; };
 		10DE33071C59CD8F007AC1D0 /* LinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkViewController.m; path = HymnLens/LinkViewController.m; sourceTree = "<group>"; };
 		10DE33091C59CE4E007AC1D0 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = HymnLens/VideoViewController.h; sourceTree = "<group>"; };
 		10DE330A1C59CE4E007AC1D0 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = HymnLens/VideoViewController.m; sourceTree = "<group>"; };
 		10DE330C1C59CE7A007AC1D0 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommunityViewController.h; path = HymnLens/CommunityViewController.h; sourceTree = "<group>"; };
 		10DE330D1C59CE7A007AC1D0 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommunityViewController.m; path = HymnLens/CommunityViewController.m; sourceTree = "<group>"; };
+		3B1A1BC11C59E36D008E13AB /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		A04AC12B1D0B8F277EDEBB28 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A30C866B6EE437DF4C9087 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DE33051C59CAC1007AC1D0 /* opencv2.framework in Frameworks */,
+				3B1A1BC21C59E36D008E13AB /* opencv2.framework in Frameworks */,
 				E838F6F60AE48D2CB78975F8 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,7 +98,7 @@
 		10DE32C21C59C38F007AC1D0 = {
 			isa = PBXGroup;
 			children = (
-				10DE33041C59CAC1007AC1D0 /* opencv2.framework */,
+				3B1A1BC11C59E36D008E13AB /* opencv2.framework */,
 				10DE330F1C59CE93007AC1D0 /* ViewController */,
 				10DE32CD1C59C390007AC1D0 /* HymnLens */,
 				10DE32E71C59C390007AC1D0 /* HymnLensTests */,
@@ -522,6 +522,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = HymnLens/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenzhihao.HymnLens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +540,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = HymnLens/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenzhihao.HymnLens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
