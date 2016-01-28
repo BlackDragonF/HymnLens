@@ -1,0 +1,13 @@
+PODS:
+  - CocoaAsyncSocket (7.4.2)
+  - Masonry (0.6.4)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - Masonry
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: f5783bdedd232d91b89769bc4b5a1580aed518ad
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+
+COCOAPODS: 0.38.2
