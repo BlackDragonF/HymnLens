@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CommunityViewController.h
 //  HymnLens
 //
 //  Created by 陈志浩 on 16/1/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CommunityViewController : UIViewController
 
 @end
-

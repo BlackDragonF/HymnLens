@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		10DE32D01C59C390007AC1D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE32CF1C59C390007AC1D0 /* main.m */; };
 		10DE32D31C59C390007AC1D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE32D21C59C390007AC1D0 /* AppDelegate.m */; };
-		10DE32D61C59C390007AC1D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE32D51C59C390007AC1D0 /* ViewController.m */; };
 		10DE32D91C59C390007AC1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DE32D71C59C390007AC1D0 /* Main.storyboard */; };
 		10DE32DB1C59C390007AC1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DE32DA1C59C390007AC1D0 /* Assets.xcassets */; };
 		10DE32DE1C59C390007AC1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DE32DC1C59C390007AC1D0 /* LaunchScreen.storyboard */; };
 		10DE32E91C59C390007AC1D0 /* HymnLensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE32E81C59C390007AC1D0 /* HymnLensTests.m */; };
 		10DE32F41C59C390007AC1D0 /* HymnLensUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE32F31C59C390007AC1D0 /* HymnLensUITests.m */; };
+		10DE33031C59C561007AC1D0 /* HLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE33021C59C561007AC1D0 /* HLTabBarController.m */; };
+		10DE33051C59CAC1007AC1D0 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DE33041C59CAC1007AC1D0 /* opencv2.framework */; };
+		10DE33081C59CD8F007AC1D0 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE33071C59CD8F007AC1D0 /* LinkViewController.m */; };
+		10DE330B1C59CE4E007AC1D0 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE330A1C59CE4E007AC1D0 /* VideoViewController.m */; };
+		10DE330E1C59CE7A007AC1D0 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE330D1C59CE7A007AC1D0 /* CommunityViewController.m */; };
+		E838F6F60AE48D2CB78975F8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04AC12B1D0B8F277EDEBB28 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E8E66D8EB63BAB8E7746F84 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		10DE32CB1C59C390007AC1D0 /* HymnLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymnLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DE32CF1C59C390007AC1D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10DE32D11C59C390007AC1D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10DE32D21C59C390007AC1D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10DE32D41C59C390007AC1D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10DE32D51C59C390007AC1D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10DE32D81C59C390007AC1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10DE32DA1C59C390007AC1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DE32DD1C59C390007AC1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,17 @@
 		10DE32EF1C59C390007AC1D0 /* HymnLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymnLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DE32F31C59C390007AC1D0 /* HymnLensUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HymnLensUITests.m; sourceTree = "<group>"; };
 		10DE32F51C59C390007AC1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DE33011C59C561007AC1D0 /* HLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLTabBarController.h; path = HymnLens/HLTabBarController.h; sourceTree = "<group>"; };
+		10DE33021C59C561007AC1D0 /* HLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLTabBarController.m; path = HymnLens/HLTabBarController.m; sourceTree = "<group>"; };
+		10DE33041C59CAC1007AC1D0 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		10DE33061C59CD8F007AC1D0 /* LinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkViewController.h; path = HymnLens/LinkViewController.h; sourceTree = "<group>"; };
+		10DE33071C59CD8F007AC1D0 /* LinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkViewController.m; path = HymnLens/LinkViewController.m; sourceTree = "<group>"; };
+		10DE33091C59CE4E007AC1D0 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = HymnLens/VideoViewController.h; sourceTree = "<group>"; };
+		10DE330A1C59CE4E007AC1D0 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = HymnLens/VideoViewController.m; sourceTree = "<group>"; };
+		10DE330C1C59CE7A007AC1D0 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommunityViewController.h; path = HymnLens/CommunityViewController.h; sourceTree = "<group>"; };
+		10DE330D1C59CE7A007AC1D0 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommunityViewController.m; path = HymnLens/CommunityViewController.m; sourceTree = "<group>"; };
+		A04AC12B1D0B8F277EDEBB28 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A30C866B6EE437DF4C9087 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DE33051C59CAC1007AC1D0 /* opencv2.framework in Frameworks */,
+				E838F6F60AE48D2CB78975F8 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +98,14 @@
 		10DE32C21C59C38F007AC1D0 = {
 			isa = PBXGroup;
 			children = (
+				10DE33041C59CAC1007AC1D0 /* opencv2.framework */,
+				10DE330F1C59CE93007AC1D0 /* ViewController */,
 				10DE32CD1C59C390007AC1D0 /* HymnLens */,
 				10DE32E71C59C390007AC1D0 /* HymnLensTests */,
 				10DE32F21C59C390007AC1D0 /* HymnLensUITests */,
 				10DE32CC1C59C390007AC1D0 /* Products */,
+				CDA401F2065A014B62514E5E /* Pods */,
+				642190E11E99CD7CDC4ECA64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +124,6 @@
 			children = (
 				10DE32D11C59C390007AC1D0 /* AppDelegate.h */,
 				10DE32D21C59C390007AC1D0 /* AppDelegate.m */,
-				10DE32D41C59C390007AC1D0 /* ViewController.h */,
-				10DE32D51C59C390007AC1D0 /* ViewController.m */,
 				10DE32D71C59C390007AC1D0 /* Main.storyboard */,
 				10DE32DA1C59C390007AC1D0 /* Assets.xcassets */,
 				10DE32DC1C59C390007AC1D0 /* LaunchScreen.storyboard */,
@@ -140,6 +159,38 @@
 			path = HymnLensUITests;
 			sourceTree = "<group>";
 		};
+		10DE330F1C59CE93007AC1D0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10DE33011C59C561007AC1D0 /* HLTabBarController.h */,
+				10DE33021C59C561007AC1D0 /* HLTabBarController.m */,
+				10DE33061C59CD8F007AC1D0 /* LinkViewController.h */,
+				10DE33071C59CD8F007AC1D0 /* LinkViewController.m */,
+				10DE33091C59CE4E007AC1D0 /* VideoViewController.h */,
+				10DE330A1C59CE4E007AC1D0 /* VideoViewController.m */,
+				10DE330C1C59CE7A007AC1D0 /* CommunityViewController.h */,
+				10DE330D1C59CE7A007AC1D0 /* CommunityViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		642190E11E99CD7CDC4ECA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04AC12B1D0B8F277EDEBB28 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA401F2065A014B62514E5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A30C866B6EE437DF4C9087 /* Pods.debug.xcconfig */,
+				0E8E66D8EB63BAB8E7746F84 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10DE32F81C59C390007AC1D0 /* Build configuration list for PBXNativeTarget "HymnLens" */;
 			buildPhases = (
+				CBCAB37D30558BAEC24E7B27 /* Check Pods Manifest.lock */,
 				10DE32C71C59C390007AC1D0 /* Sources */,
 				10DE32C81C59C390007AC1D0 /* Frameworks */,
 				10DE32C91C59C390007AC1D0 /* Resources */,
+				15227D7BB0A0AD7C45A4936E /* Embed Pods Frameworks */,
+				8F9E3EEA65EA01C04745F9FB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +319,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15227D7BB0A0AD7C45A4936E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9E3EEA65EA01C04745F9FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCAB37D30558BAEC24E7B27 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10DE32C71C59C390007AC1D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DE32D61C59C390007AC1D0 /* ViewController.m in Sources */,
+				10DE330E1C59CE7A007AC1D0 /* CommunityViewController.m in Sources */,
+				10DE330B1C59CE4E007AC1D0 /* VideoViewController.m in Sources */,
+				10DE33081C59CD8F007AC1D0 /* LinkViewController.m in Sources */,
 				10DE32D31C59C390007AC1D0 /* AppDelegate.m in Sources */,
 				10DE32D01C59C390007AC1D0 /* main.m in Sources */,
+				10DE33031C59C561007AC1D0 /* HLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,23 +514,35 @@
 		};
 		10DE32F91C59C390007AC1D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A30C866B6EE437DF4C9087 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HymnLens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenzhihao.HymnLens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		10DE32FA1C59C390007AC1D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8E66D8EB63BAB8E7746F84 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HymnLens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenzhihao.HymnLens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -496,6 +613,7 @@
 				10DE32FA1C59C390007AC1D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10DE32FB1C59C390007AC1D0 /* Build configuration list for PBXNativeTarget "HymnLensTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +622,7 @@
 				10DE32FD1C59C390007AC1D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10DE32FE1C59C390007AC1D0 /* Build configuration list for PBXNativeTarget "HymnLensUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +631,7 @@
 				10DE33001C59C390007AC1D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
